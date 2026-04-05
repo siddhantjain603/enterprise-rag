@@ -1,0 +1,29 @@
+# ── Stage 1: Ingestion ───────────────────────────────────────────────
+pypdf==4.3.1
+langchain-text-splitters==0.3.8
+openai==1.78.0
+azure-search-documents==11.6.0b12
+azure-identity==1.21.0
+python-dotenv==1.1.0
+tiktoken==0.9.0
+rich==14.0.0
+reportlab==4.2.5
+
+# ── Stage 2: Retrieval ───────────────────────────────────────────────
+langchain==0.3.25
+cohere==5.15.0
+
+# ── Stage 3: Generation ──────────────────────────────────────────────
+# (openai already included above)
+
+# ── Stage 4: Evaluation ──────────────────────────────────────────────
+ragas==0.2.15
+datasets==3.5.1
+
+# ── Stage 5: LangGraph ───────────────────────────────────────────────
+langgraph==0.3.31
+
+# ── Stage 6: API ─────────────────────────────────────────────────────
+fastapi==0.115.12
+uvicorn==0.34.0
+pydantic==2.11.3

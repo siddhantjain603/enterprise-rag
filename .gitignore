@@ -1,0 +1,26 @@
+# Environment
+.env
+
+# Virtual environment
+.venv/
+.uv/
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated PDFs (recreated by generate_docs.py)
+data/*.pdf
+
+# Personal files
+numbers.txt
+setup.sh
+
+# Local config
+pyproject.toml
+.python-version
+
+# IDE
+.vscode/
+.idea/
