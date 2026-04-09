@@ -179,10 +179,10 @@ Valid policy query     → all 9 nodes run   → latency: ~13-20s
 ### RAGAS Evaluation (10 questions)
 | Metric | Score |
 |---|---|
-| **Faithfulness** | **0.85** |
-| **Answer Relevancy** | **0.8756** |
+| **Faithfulness** | **1.0** |
+| **Answer Relevancy** | **0.8848** |
 | **Context Precision** | **1.0** |
-| **Overall Average** | **0.9085** |
+| **Overall Average** | **0.9616** |
 
 Context Precision of **1.0** across all 10 questions confirms the hybrid search + reranker combination retrieves only relevant chunks every time.
 
